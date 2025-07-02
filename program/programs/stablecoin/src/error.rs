@@ -7,4 +7,7 @@ pub enum CustomError {
 
     #[msg("Health factor below minimum")]
     BelowMinHealthFactor,
+
+    #[msg("Cannot liquidate a healthy account")]
+    AboveMinHealthFactor,
 }
